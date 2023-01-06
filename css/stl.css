@@ -1,0 +1,90 @@
+body{
+    background: #5e548e;
+    margin: 0;
+    font-family:sans-serif ;
+}
+span{
+    color: #fcbf49;
+}
+.cont{
+    display: flex;
+    place-content: space-between;
+
+    background: #2B2D42;
+    padding: 1em;
+}
+.h1_text{
+    color: white;
+    font-size: 2.5em;
+}
+.resize{
+    width: 80px;
+    height: auto;
+    display: flex;
+}
+.main_text{
+    text-align: center;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .toggle{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 90px;
+    height: 50px;
+    background:#b298dc;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.container .toggle .toggle-botten{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container .toggle.active{
+    background: #735290;
+}
+.container .toggle.active .toggle-botten{
+    left: 45px;
+}
+.container .text{
+    position: absolute;
+    left: 160px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: px;
+    color: #36393B;
+}
+.container .text2{
+    position: absolute;
+    left: -210px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: px;
+    color: #36393B;
+}
+.rectangle{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:450px;
+    height: 70px;
+    background:#b8c0ff;
+    border-radius: 10px;
+}
